@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header{
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+    background: #FF731A;
+    box-shadow: 1px 2.9px 2.1px rgba(138, 255, 233, 32);
+  }
+
+  h1{
+    width: 100%;
+    padding: 2.1rem;
+    align-items: center;
+    text-align: center;
+    font-size: 5.5rem;
+    letter-spacing: 0.5rem;
+    color:#33b811;
+    text-shadow: 0 2px 10px #000000;
+  }
+  
+  
+  main{
+    display: flex;
+    width: 100%;
+    Justify-content: Center;
+    align-items: center;
+    text-align: justify;
+    Background: #FFD89D;
+    margin-top: 0.2rem;
+  }
+  
+  h2{
+    width: 99%;
+    padding: 2.1rem;
+    font-size: 2.5rem;
+    color: #7037DB;
+    text-align: center;
+  }
+
+  
+  .conteiner-parags{
+    width: 55em;
+    padding: 0.3em;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .first-paragraph{
+    Max-width: 50em;
+    padding: 30px;
+    border: 5px rgba(247, 151, 7, 0.788) solid;
+    margin: 0 0 20px 0;
+    color: rgb(55, 4, 66);
+    text-indent: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  .first-paragraph:hover{
+    color: #db0ddb;
+    background: rgba(31, 29, 29, 0.856);
+    transition: 0.4s;
+    transform: scale(1.2, 1.2);
+  }
+
+
+  .second-paragraph{
+    Max-width: 50em;
+    padding: 30px;
+    border: 5px rgba(247, 151, 7, 0.788) solid;
+    margin: 0 0 20px 0;
+    color: rgb(55, 4, 66);
+    text-indent: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .second-paragraph:hover{
+    color: #db0ddb;
+    background: rgba(31, 29, 29, 0.856);
+    transition: 0.4s;
+    transform: scale(1.2, 1.2)
+  }
+
+  .third-paragraph{
+    Max-width: 50em;
+    padding: 30px;
+    border: 5px rgba(247, 151, 7, 0.788) solid;
+    margin: 0 0 20px 0;
+    color: rgb(55, 4, 66);
+    text-indent: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .third-paragraph:hover{
+    color: #db0ddb;
+    background: rgba(31, 29, 29, 0.856);
+    transition: 0.4s;
+    transform: scale(1.2, 1.2)
+  }
+
+  footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #ffc46cdc;
+  }
+
+  .humburger-gif{
+    width: 25rem;
+    
+  }
+
+  .box-ingreds{
+    width: 20rem;
+  }
+
+  h3{
+    width: 30rem;
+    margin: 0 0 15px 0;
+    font-size: 2rem;
+  }
+
+  .list-ingreds{
+    display: block;
+    list-style: none;
+    width: 15rem;
+    font-size: 2rem;
+    font-style: italic;
+    cursor: pointer;
+  }
+
+  li:hover{
+    background: rgba(0, 0, 0, 0.733);
+    color: rgba(255, 0, 212, 0.952);
+    transition: 0.5s;
+    transform: scale(0.9, 0.9);
+  }
+
+
+  /*Aqui começa o Responsivo*/
