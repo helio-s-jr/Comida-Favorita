@@ -6,55 +6,73 @@
   
   header{
     display: flex; 
-    justify-content: center;
     width: 100%;
-    background: #FF731A;
-    box-shadow: 1px 2.9px 2.1px rgba(138, 255, 233, 32);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #FF731A;
+    box-shadow: 2px 3.5px 3px rgba(138, 255, 233, 32);
+  }
+
+  .favorite-food{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
 
   h1{
-    width: 100%;
-    padding: 2.1rem;
+    width: 95%;
+    padding: 0.4em;
     align-items: center;
     text-align: center;
-    font-size: 5.5rem;
-    letter-spacing: 0.5rem;
+    justify-content: center;
+    font-size: 3.5rem;
+    letter-spacing: 2rem;
     color:#33b811;
-    text-shadow: 0 2px 10px #000000;
+    text-shadow: 0 4px 10px #000000;
   }
   
   
   main{
     display: flex;
     width: 100%;
-    Justify-content: Center;
+    justify-content: center;
     align-items: center;
-    text-align: justify;
+    text-align: center;
     Background: #FFD89D;
-    margin-top: 0.2rem;
+    margin-top: 0.2em;
+    flex-direction: column;
   }
   
   h2{
-    width: 99%;
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
     padding: 2.1rem;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: #7037DB;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 
   
   .conteiner-parags{
-    width: 55em;
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
     padding: 0.3em;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    flex-direction: column;
     cursor: pointer;
   }
 
   .first-paragraph{
-    Max-width: 50em;
+    width: 90%;
     padding: 30px;
     border: 5px rgba(247, 151, 7, 0.788) solid;
     margin: 0 0 20px 0;
@@ -62,7 +80,6 @@
     text-indent: 20px;
     font-size: 1.6rem;
     font-weight: bold;
-    justify-content: center;
   }
 
   .first-paragraph:hover{
@@ -74,7 +91,7 @@
 
 
   .second-paragraph{
-    Max-width: 50em;
+    width: 90%;
     padding: 30px;
     border: 5px rgba(247, 151, 7, 0.788) solid;
     margin: 0 0 20px 0;
@@ -92,7 +109,7 @@
   }
 
   .third-paragraph{
-    Max-width: 50em;
+    width: 90%;
     padding: 30px;
     border: 5px rgba(247, 151, 7, 0.788) solid;
     margin: 0 0 20px 0;
@@ -112,31 +129,52 @@
   footer{
     display: flex;
     width: 100%;
-    justify-content: center;
+    margin: 0 auto;
+    justify-content:center;
     align-items: center;
+    text-align: center;
     background: #ffc46cdc;
   }
 
+  figure{
+    display: flex;
+    width: 30%;
+    margin: 2 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
   .humburger-gif{
-    width: 25rem;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
   }
 
   .box-ingreds{
-    width: 20rem;
+    display: block;
+    width: 10%;
+    margin: 2 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
   }
 
   h3{
-    width: 30rem;
-    margin: 0 0 15px 0;
+    width: 50%;
     font-size: 2rem;
+    margin: 0 0 15px 0;
   }
 
   .list-ingreds{
     display: block;
     list-style: none;
-    width: 15rem;
-    font-size: 2rem;
+    width: 95%;
+    font-size: 1.6rem;
     font-style: italic;
     cursor: pointer;
   }
@@ -150,3 +188,7 @@
 
 
   /*Aqui começa o Responsivo*/
+
+  @media (max-width: 2600px){
+    
+  }
